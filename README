@@ -2,3 +2,6 @@ This is an Arduino build system which is based on the Makefile by edam, which ca
 
 http://ed.am/dev/make/arduino-mk
 
+To use it just copy the template folder and rename template.pde to the name of your new folder.
+If you are using anything other than an Arduino UNO, also change the BOARD line in the Makefile.
+
