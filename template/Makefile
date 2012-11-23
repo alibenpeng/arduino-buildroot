@@ -1,3 +1,3 @@
-BOARD=keyfob
+BOARD=uno
 
 include ../arduino.mk
