@@ -1,5 +1,23 @@
 ##############################################################
 
+doorbuzzer.name=Alis doorbuzzer via mySmartUSB light
+doorbuzzer.upload.protocol=stk500v2
+doorbuzzer.upload.maximum_size=32256
+doorbuzzer.upload.speed=115200
+doorbuzzer.bootloader.low_fuses=0xe2
+doorbuzzer.bootloader.high_fuses=0xd1
+doorbuzzer.bootloader.extended_fuses=0x07
+doorbuzzer.bootloader.path=optiboot
+doorbuzzer.bootloader.file=optiboot_atmega328.hex
+doorbuzzer.bootloader.unlock_bits=0x3F
+doorbuzzer.bootloader.lock_bits=0x0F
+doorbuzzer.build.mcu=atmega168p
+doorbuzzer.build.f_cpu=16000000L
+doorbuzzer.build.core=arduino
+doorbuzzer.build.variant=standard
+
+##############################################################
+
 smartmeter.name=Alis Smartmeter via mySmartUSB light
 smartmeter.upload.protocol=stk500v2
 smartmeter.upload.maximum_size=32256
@@ -18,6 +36,60 @@ smartmeter.build.variant=standard
 
 ##############################################################
 
+rf12_socket_type_1.name=Alis RF12 Sockets via mySmartUSB light
+rf12_socket_type_1.upload.protocol=stk500v2
+rf12_socket_type_1.upload.maximum_size=32256
+rf12_socket_type_1.upload.speed=115200
+rf12_socket_type_1.bootloader.low_fuses=0xe2
+rf12_socket_type_1.bootloader.high_fuses=0xd1
+rf12_socket_type_1.bootloader.extended_fuses=0x07
+rf12_socket_type_1.bootloader.path=optiboot
+rf12_socket_type_1.bootloader.file=optiboot_atmega328.hex
+rf12_socket_type_1.bootloader.unlock_bits=0x3F
+rf12_socket_type_1.bootloader.lock_bits=0x0F
+rf12_socket_type_1.build.mcu=atmega168p
+rf12_socket_type_1.build.f_cpu=16000000L
+rf12_socket_type_1.build.core=arduino
+rf12_socket_type_1.build.variant=standard
+
+##############################################################
+
+rf12_socket_type_2a.name=Alis RF12 Sockets via mySmartUSB light
+rf12_socket_type_2a.upload.protocol=stk500v2
+rf12_socket_type_2a.upload.maximum_size=32256
+rf12_socket_type_2a.upload.speed=115200
+rf12_socket_type_2a.bootloader.low_fuses=0xe2
+rf12_socket_type_2a.bootloader.high_fuses=0xd1
+rf12_socket_type_2a.bootloader.extended_fuses=0x07
+rf12_socket_type_2a.bootloader.path=optiboot
+rf12_socket_type_2a.bootloader.file=optiboot_atmega328.hex
+rf12_socket_type_2a.bootloader.unlock_bits=0x3F
+rf12_socket_type_2a.bootloader.lock_bits=0x0F
+rf12_socket_type_2a.build.mcu=atmega168p
+rf12_socket_type_2a.build.f_cpu=8000000L
+rf12_socket_type_2a.build.core=arduino
+rf12_socket_type_2a.build.variant=standard
+
+##############################################################
+
+rf12_socket_type_2b.name=Alis RF12 Sockets via mySmartUSB light
+rf12_socket_type_2b.upload.protocol=stk500v2
+rf12_socket_type_2b.upload.maximum_size=32256
+rf12_socket_type_2b.upload.speed=115200
+rf12_socket_type_2b.bootloader.low_fuses=0xe2
+rf12_socket_type_2b.bootloader.high_fuses=0xd1
+rf12_socket_type_2b.bootloader.extended_fuses=0x07
+rf12_socket_type_2b.bootloader.path=optiboot
+rf12_socket_type_2b.bootloader.file=optiboot_atmega328.hex
+rf12_socket_type_2b.bootloader.unlock_bits=0x3F
+rf12_socket_type_2b.bootloader.lock_bits=0x0F
+rf12_socket_type_2b.build.mcu=atmega328p
+rf12_socket_type_2b.build.f_cpu=8000000L
+rf12_socket_type_2b.build.core=arduino
+rf12_socket_type_2b.build.variant=standard
+
+##############################################################
+
 keyfob.name=Alis Keyfob via mySmartUSB light
 keyfob.upload.protocol=stk500v2
 keyfob.upload.maximum_size=32256
@@ -33,6 +105,24 @@ keyfob.build.mcu=atmega328p
 keyfob.build.f_cpu=8000000L
 keyfob.build.core=arduino
 keyfob.build.variant=standard
+
+##############################################################
+
+jeenode.name=Jeenode
+jeenode.upload.protocol=arduino
+jeenode.upload.maximum_size=32256
+jeenode.upload.speed=115200
+jeenode.bootloader.low_fuses=0xff
+jeenode.bootloader.high_fuses=0xde
+jeenode.bootloader.extended_fuses=0x05
+jeenode.bootloader.path=optiboot
+jeenode.bootloader.file=optiboot_atmega328.hex
+jeenode.bootloader.unlock_bits=0x3F
+jeenode.bootloader.lock_bits=0x0F
+jeenode.build.mcu=atmega328p
+jeenode.build.f_cpu=16000000L
+jeenode.build.core=arduino
+jeenode.build.variant=standard
 
 ##############################################################
 
